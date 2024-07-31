@@ -5,8 +5,6 @@
 ///////// Main application API
 ///////////////////////////////
 
----types---
-
 // boolFalse#bc799737 = Bool;  // Parsed manually
 // boolTrue#997275b5 = Bool;  // Parsed manually
 
@@ -1834,8 +1832,6 @@ payments.starsRevenueWithdrawalUrl#1dab80b7 url:string = payments.StarsRevenueWi
 payments.starsRevenueAdsAccountUrl#394e7f21 url:string = payments.StarsRevenueAdsAccountUrl;
 
 inputStarsTransaction#206ae6d1 flags:# refund:flags.0?true id:string = InputStarsTransaction;
-
----functions---
 
 invokeAfterMsg#cb9f372d {X:Type} msg_id:long query:!X = X;
 invokeAfterMsgs#3dc4b4f0 {X:Type} msg_ids:Vector<long> query:!X = X;
