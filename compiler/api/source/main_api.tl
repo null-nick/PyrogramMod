@@ -15,7 +15,6 @@
 // error#c4b9f9bb code:int text:string = Error;  // Not used
 
 // null#56730bcc = Null;  // Parsed manually
-
 inputPeerEmpty#7f3b18ea = InputPeer;
 inputPeerSelf#7da07ec9 = InputPeer;
 inputPeerChat#35a95cb9 chat_id:long = InputPeer;
